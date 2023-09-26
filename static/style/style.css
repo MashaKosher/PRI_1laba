@@ -1,0 +1,91 @@
+/* главный контейнер */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/* первый div */
+.first-layer-container{
+    /* background-color: blue; */
+    background-image: url(backgroundimage/FirstLayerBackground/Layer962.png);
+    width: 1600px;
+    height: 880px;
+}
+
+
+/* второй div */
+.second-layer-container{
+    background-image: url(backgroundimage/SecondLayerBackground/Rectangle2.png);
+    width: 1600px;
+    height: 738px;
+
+
+}
+
+
+/* третий div */
+.third-layer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1600px;
+    height: 474px;
+}
+
+/* третий div слева */
+.first-third-layer-container{
+    background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy.png);
+    width: 801px; 
+    height: 474px;  
+}
+
+
+/* третий div справа */
+.second-third-layer-container{
+    background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy3.png);
+    width: 799px; 
+    height: 474px;  
+ 
+}
+
+/* четвертый div */
+.fourth-layer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1600px;
+    height: 474px;
+}
+
+/* четвертый div слева */
+.first-fourth-layer-container{
+    background-image: url(backgroundimage/FourthLayerBackground/FourthLayerLeft.png);
+    width: 799px; 
+    height: 474px;     
+}
+
+/* четвертый div справа */
+.second-fourth-layer-container{
+    background-image: url(backgroundimage/FourthLayerBackground/FourthLayerRight.png);
+    width: 801px; 
+    height: 474px;  
+}
+
+#govno{
+    height: 380px;
+    width: 380px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#zalypa{
+    height: 100px;
+    width: 100px;
+
+    background-color: brown;
+}
