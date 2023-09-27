@@ -46,7 +46,7 @@ body{
 .first-layer-one-container>ul>li>a{
     color: white ;
     font-family: 'Myriad Pro', sans-serif;
-    font-size: 10pt;
+    font-size: 12pt;
     font: optional;
     text-decoration: none;
 }
@@ -69,20 +69,29 @@ body{
 }
 
 .text-layer1-one-container{
-    display: inline;
-    font-family: 'Gotham Bold', sans-serif;
+    display: inline-flex;
+    /* font-family: 'Gotham Bold', sans-serif; */
+    font-family: 'Figtree', sans-serif;
+    font-weight: bold;
     color: white;
-    font-size: 152.54pt;
+    font-size: 148pt;
     letter-spacing: -0.05em;
+    margin-bottom: 0;
+
 }
+
 
 .text-layer1-two-container{
     display: inline-flex;
-    font-family: 'Gotham Medium',sans-serif ;
+    /* font-family: 'Gotham Medium',sans-serif ; */
+    font-family: 'Figtree', sans-serif;
     color: #11749e;
     letter-spacing: 0.74em;
     white-space: nowrap;
-    font-size: 24.79pt;
+    font-size: 20pt;
+    font-weight:bolder;
+    margin-top: 0;
+    padding: 0;
 }
 
 .first-layer-three-container{
@@ -93,6 +102,7 @@ body{
     flex-direction: column;
     padding-bottom: 20px;
     font-size: small;
+    padding: 0;
 
 }
 
@@ -169,9 +179,10 @@ body{
 #imagtwo-2layer{
     text-align: center;
     color: white;
-    font-family:  'Gotham Book',sans-serif;
-    font-size: 10pt;
-    font-weight:
+    /* font-family:  'Gotham Book',sans-serif; */
+    font-family: 'Figtree', sans-serif;
+    font-size: 11pt;
+    white-space: nowrap;
 }
 
 
@@ -183,6 +194,23 @@ body{
     align-items: center;
     width: 1600px;
     height: 474px;
+}
+
+#ftlheader-container{
+    font-family: 'Figtree', sans-serif;
+    font-size: 19pt;
+    margin-top: 0;
+    font-weight: 700;
+}
+#ftldate-container{
+    font-family: 'Figtree', sans-serif;
+    font-size: 10pt;
+    margin-bottom: 0;
+}
+#ftltext-container{
+    font-family: 'Figtree', sans-serif;
+    font-size: 13pt;
+
 }
 
 /* третий div слева */
@@ -203,7 +231,6 @@ body{
 }
 .first-third-layer-container>div>p{
     color: white;
-
 }
 
 
@@ -236,5 +263,13 @@ body{
 .second-fourth-layer-container{
     background-image: url(backgroundimage/FourthLayerBackground/FourthLayerRight.png);
     width: 801px; 
-    height: 474px;  
+    height: 474px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.second-fourth-layer-container>div{
+    width: 480px;
 }
