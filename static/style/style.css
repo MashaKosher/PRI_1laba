@@ -146,7 +146,7 @@ body{
     margin-top: 68px;
 
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     /* align-items: center; */
     justify-content: space-between;
     /* width: 270px; */
@@ -154,7 +154,27 @@ body{
 
 .secnd-icon-container>div{
     width: 270px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
+
+#imageone-2layer{
+    font-family:  'Gotham Medium',sans-serif;
+    font-size: 18pt;
+    color: white;
+    font-weight: 50;
+}
+#imagtwo-2layer{
+    text-align: center;
+    color: white;
+    font-family:  'Gotham Book',sans-serif;
+    font-size: 10pt;
+    font-weight:
+}
+
+
 
 /* третий div */
 .third-layer-container{
@@ -169,8 +189,23 @@ body{
 .first-third-layer-container{
     background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy.png);
     width: 801px; 
-    height: 474px;  
+    height: 474px; 
+    /* text-align: center;  */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.first-third-layer-container>div{
+    width: 480px;
+}
+.first-third-layer-container>div>p{
+    color: white;
+
+}
+
 
 
 /* третий div справа */
