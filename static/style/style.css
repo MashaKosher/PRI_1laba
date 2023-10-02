@@ -34,6 +34,14 @@ body{
     justify-content: space-between;
 }
 
+.first-layer-one-container>div{
+    height: 75px;
+    width: 79px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url(backgroundimage/FirstLayerBackground/Rectangle9.png);
+}
+
 .first-layer-one-container>ul{
     width: 710px;
     display: inline-flex;
@@ -46,6 +54,7 @@ body{
 .first-layer-one-container>ul>li>a{
     color: white ;
     font-family: 'Myriad Pro', sans-serif;
+    font-weight: normal;
     font-size: 12pt;
     font: optional;
     text-decoration: none;
@@ -193,7 +202,7 @@ body{
     flex-direction: row;
     align-items: center;
     width: 1600px;
-    height: 474px;
+    height: 470px;
 }
 
 #ftlheader-container{
