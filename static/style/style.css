@@ -23,7 +23,7 @@ body{
 }
 
 .first-layer-one-container{
-    width: 1170px;
+    width: 1180px;
     padding-top: 20px;
     height: 75px;
     margin-bottom: 150px;
@@ -42,24 +42,41 @@ body{
     background-image: url(backgroundimage/FirstLayerBackground/Rectangle9.png);
 }
 
-.first-layer-one-container>ul{
-    width: 710px;
+.ul1-container{
+    width: 658px;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 30px;
+    margin-left: 100px ;
     justify-content: space-between;
     list-style: none;
 }
 
-.first-layer-one-container>ul>li>a{
+.ul1-container>li>a{
     color: white ;
-    font-family: 'Myriad Pro', sans-serif;
+    /* font-family: 'Myriad Pro', sans-serif; */
+    font-family: "Myriad Pro Regular", sans-serif;
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 18px;
     font: optional;
     text-decoration: none;
 }
 
+.ul2-container{
+    margin-top: 28.5px;
+    width: 141px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.ul2-container>i{
+    color: white ;
+    font-size: 20px;
+}
 
 #sub1-container{
     display: flex;
@@ -78,38 +95,66 @@ body{
     justify-content: center;
     align-items: center;
     height: 557px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+
 }
 .first-layer-two-container{
-    margin-top: 78px;
+    /* margin-top: 78px; */
     display: flex;
     flex-direction: column;
-    height: 164px;
+    /* height: 164px; */
     justify-content: center;
     align-items: center;
+    /* margin: 0; */
 }
 
+
+#text-layer1-one-container{
+    display: inline;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+
+#text-layer2-one-container{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
 .text-layer1-one-container{
     display: inline-flex;
-    font-family: 'Figtree', sans-serif;
-    font-weight: bold;
+    /* font-family: 'Figtree', sans-serif;*/
+    font-weight: bold; 
+    font-family: 'Gotham-Bold', sans-serif;
     color: white;
-    font-size: 115pt;
-    letter-spacing: -0.005em;
+    /* font-size: 115pt; */
+    font-size: 112pt;
+    letter-spacing: -0.007em;
     line-height: 108px;
     margin-bottom: 0px;
+    /* margin-bottom: -70px; */
 }
+
 
 .text-layer1-two-container{
     display: inline-flex;
-    font-family: 'Figtree', sans-serif;
+    /* font-family: 'Figtree', sans-serif; */
+    font-family: 'Gotham-Medium', sans-serif;
+    font-size: 18pt;
     font-weight:bolder;
     color: #11749e;
-    font-size: 18pt;
-    letter-spacing: 0.74em;
+    /* font-size: 18pt; */
+    letter-spacing: 0.8em;
+    width: 810px;
     white-space: nowrap;
-    line-height: 15px;
-    margin-top: 27px;  
+    /* line-height: 15px; */
+    /* line-height: 57.79pt; */
+    /* margin-top: 90px;   */
     text-align: center;
+    margin-top: 11px;
 }
 
 
@@ -165,9 +210,12 @@ body{
 }
 
 .w-container>p{
-    font-family: 'Gotham Medium',sans-serif;
-    font-size: 32.55pt;
-    line-height: 27px;
+    font-family: 'Gotham-Medium', sans-serif;
+    /* font-size: 32.55pt; */
+    font-size: 30pt;
+    line-height: 24px;
+    letter-spacing: 0.083em;
+    text-align: center;
 
     white-space: nowrap;
     color: white;
@@ -190,7 +238,24 @@ body{
     align-items: center;
     display: flex;
 }
+.secnd-icon-container>div>div{
+   
+}
 
+#fa-1conyainer{
+    height: 133px;
+    width: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(backgroundimage/SecondLayerBackground/Ellipse1copy3.png);
+}
+
+#fa-1conyainer>i{
+    color: white;
+    font-size: 36px;
+}
 #imageone-2layer{
     font-family:  'Gotham Medium',sans-serif;
     font-size: 12pt;
@@ -347,4 +412,27 @@ body{
     /* padding-left: 80px; */
     margin-top: 107px;
     margin-left: 80px;
+}
+
+
+
+
+
+
+@font-face{
+    font-family: "Myriad Pro Regular";
+    src: url(C:\Users\37529\Desktop\РПИ\Лаба1\static\fonts\MYRIADPRO-REGULAR.OTF);
+}
+
+
+
+@font-face {
+ 
+    font-family: "Gotham-Medium"; 
+    src: url("C:\Users\37529\Desktop\РПИ\Лаба1\static\fonts\GothamMedium.otf");
+} 
+
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("C:\Users\37529\Desktop\РПИ\Лаба1\static\fonts\gotham_bold.otf");
 }
