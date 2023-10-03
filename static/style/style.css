@@ -34,7 +34,7 @@ body{
     margin-bottom: 0;
 }
 
-.first-layer-one-container>div{
+.subdivheader-1container{
     height: 75px;
     width: 79px;
     background-repeat: no-repeat;
@@ -42,13 +42,20 @@ body{
     background-image: url(backgroundimage/FirstLayerBackground/Rectangle9.png);
 }
 
+.subdivheader-2container{
+
+    width: 895px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .ul1-container{
-    width: 658px;
+    width: 659px;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     margin-top: 30px;
-    margin-left: 100px ;
     justify-content: space-between;
     list-style: none;
 }
@@ -69,7 +76,7 @@ body{
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-
+    margin-left: 10px;
     justify-content: space-between;
 }
 
@@ -200,7 +207,7 @@ body{
 }
 
 .w-container{
-    margin-top: 100px;
+    margin-top: 99px;
     height: 176px;
     width: 184px;
     background-image: url(backgroundimage/SecondLayerBackground/W.png);
@@ -212,10 +219,11 @@ body{
 .w-container>p{
     font-family: 'Gotham-Medium', sans-serif;
     /* font-size: 32.55pt; */
-    font-size: 30pt;
+    font-size: 28pt;
     line-height: 24px;
-    letter-spacing: 0.083em;
+    letter-spacing: 0.13em;
     text-align: center;
+
 
     white-space: nowrap;
     color: white;
