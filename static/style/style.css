@@ -1,18 +1,18 @@
 /* главный контейнер */
-.main-container{
+.main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
 
 /* первый div */
-.first-layer-container{
+.first-layer-container {
     /* background-color: blue; */
     background-image: url(backgroundimage/FirstLayerBackground/Layer962.png);
     width: 1600px;
@@ -22,7 +22,17 @@ body{
     align-items: center;
 }
 
-.first-layer-one-container{
+
+.first-layer-onediv-container {
+    display: flex;
+    border-bottom: 1px solid;
+    border-color: gray;
+    width: 1600px;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+
+.first-layer-one-container {
     width: 1180px;
     padding-top: 20px;
     height: 75px;
@@ -34,7 +44,7 @@ body{
     margin-bottom: 0;
 }
 
-.subdivheader-1container{
+.subdivheader-1container {
     height: 75px;
     width: 79px;
     background-repeat: no-repeat;
@@ -42,7 +52,7 @@ body{
     background-image: url(backgroundimage/FirstLayerBackground/Rectangle9.png);
 }
 
-.subdivheader-2container{
+.subdivheader-2container {
 
     width: 895px;
     flex-direction: row;
@@ -50,7 +60,7 @@ body{
     justify-content: space-between;
 }
 
-.ul1-container{
+.ul1-container {
     width: 659px;
     display: inline-flex;
     flex-direction: row;
@@ -60,9 +70,8 @@ body{
     list-style: none;
 }
 
-.ul1-container>li>a{
-    color: white ;
-    /* font-family: 'Myriad Pro', sans-serif; */
+.ul1-container>li>a {
+    color: white;
     font-family: "Myriad Pro Regular", sans-serif;
     font-weight: normal;
     font-size: 18px;
@@ -70,7 +79,14 @@ body{
     text-decoration: none;
 }
 
-.ul2-container{
+.ul1-container>li>a:hover {
+    border-bottom: 6px solid;
+    padding-bottom: 34px;
+    border-color: rgb(11, 116, 158);
+
+}
+
+.ul2-container {
     margin-top: 28.5px;
     width: 141px;
     display: inline-flex;
@@ -80,12 +96,14 @@ body{
     justify-content: space-between;
 }
 
-.ul2-container>i{
-    color: white ;
+.ul2-container>i {
+    color: white;
     font-size: 20px;
 }
 
-#sub1-container{
+
+
+#sub1-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +115,7 @@ body{
     justify-content: center;
 }
 
-#first-layer-two-divcontainer{
+#first-layer-two-divcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +125,8 @@ body{
     margin-bottom: 0;
 
 }
-.first-layer-two-container{
+
+.first-layer-two-container {
     /* margin-top: 78px; */
     display: flex;
     flex-direction: column;
@@ -118,7 +137,7 @@ body{
 }
 
 
-#text-layer1-one-container{
+#text-layer1-one-container {
     display: inline;
     margin-top: 110px;
     margin-bottom: 0px;
@@ -126,15 +145,16 @@ body{
     padding-bottom: 28px;
 }
 
-#text-layer2-one-container{
+#text-layer2-one-container {
     display: inline;
     margin-top: 0;
     margin-bottom: 48px;
 }
-.text-layer1-one-container{
+
+.text-layer1-one-container {
     display: inline-flex;
     /* font-family: 'Figtree', sans-serif;*/
-    font-weight: bold; 
+    font-weight: bold;
     font-family: 'Gotham-Bold', sans-serif;
     color: white;
     /* font-size: 115pt; */
@@ -142,21 +162,24 @@ body{
     letter-spacing: -0.007em;
     line-height: 108px;
     margin-bottom: 0px;
+
     /* margin-bottom: -70px; */
 }
 
 
-.text-layer1-two-container{
+.text-layer1-two-container {
     display: inline-flex;
     /* font-family: 'Figtree', sans-serif; */
     font-family: 'Gotham-Medium', sans-serif;
     font-size: 18pt;
-    font-weight:bolder;
+    font-weight: bolder;
     color: #11749e;
     /* font-size: 18pt; */
     letter-spacing: 0.8em;
     width: 810px;
     white-space: nowrap;
+    padding-bottom: 40px;
+    /*Этого свйства не было */
     /* line-height: 15px; */
     /* line-height: 57.79pt; */
     /* margin-top: 90px;   */
@@ -165,7 +188,7 @@ body{
 }
 
 
-.first-layer-three-container{
+.first-layer-three-container {
     height: 207px;
     display: flex;
     flex-direction: column;
@@ -173,7 +196,7 @@ body{
 
 }
 
-.first-layer-three-container>div>p{
+.first-layer-three-container>div>p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 11pt;
@@ -184,12 +207,12 @@ body{
     color: white;
 }
 
-.first-layer-three-DIVcontainer{
+.first-layer-three-DIVcontainer {
     background-image: url(backgroundimage/FirstLayerBackground/Ellipse2.png);
     height: 65px;
     width: 65px;
     margin-top: 20px;
-    margin-right: 5px ;
+    margin-right: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,7 +220,7 @@ body{
 
 
 /* второй div */
-.second-layer-container{
+.second-layer-container {
     background-image: url(backgroundimage/SecondLayerBackground/Rectangle2.png);
     width: 1600px;
     height: 738px;
@@ -206,7 +229,7 @@ body{
     align-items: center;
 }
 
-.w-container{
+.w-container {
     margin-top: 99px;
     height: 176px;
     width: 184px;
@@ -216,7 +239,7 @@ body{
     align-items: center;
 }
 
-.w-container>p{
+.w-container>p {
     font-family: 'Gotham-Medium', sans-serif;
     /* font-size: 32.55pt; */
     font-size: 28pt;
@@ -229,7 +252,7 @@ body{
     color: white;
 }
 
-.secnd-icon-container{
+.secnd-icon-container {
     margin-top: 68px;
     width: 1162px;
     display: flex;
@@ -239,18 +262,17 @@ body{
     /* width: 270px; */
 }
 
-.secnd-icon-container>div{
+.secnd-icon-container>div {
     width: 257px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.secnd-icon-container>div>div{
-   
-}
 
-#fa-1conyainer{
+.secnd-icon-container>div>div {}
+
+#fa-1conyainer {
     height: 133px;
     width: 133px;
     display: flex;
@@ -260,18 +282,20 @@ body{
     background-image: url(backgroundimage/SecondLayerBackground/Ellipse1copy3.png);
 }
 
-#fa-1conyainer>i{
+#fa-1conyainer>i {
     color: white;
     font-size: 36px;
 }
-#imageone-2layer{
-    font-family:  'Gotham Medium',sans-serif;
+
+#imageone-2layer {
+    font-family: 'Gotham Medium', sans-serif;
     font-size: 12pt;
     color: white;
     font-weight: 50;
     margin-top: 23px;
 }
-#imagtwo-2layer{
+
+#imagtwo-2layer {
     text-align: center;
     color: white;
     /* font-family:  'Gotham Book',sans-serif; */
@@ -285,7 +309,7 @@ body{
 
 
 /* третий div */
-.third-layer-container{
+.third-layer-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -293,72 +317,72 @@ body{
     height: 447px;
 }
 
-.ftldate-container{
+.ftldate-container {
     font-family: 'Figtree', sans-serif;
     font-size: 11pt;
     margin-bottom: 0;
 }
 
-#ftldate-container1{
+#ftldate-container1 {
     margin-top: -19px;
 }
 
-#ftldate-container2{
+#ftldate-container2 {
     margin-top: -6px;
 }
 
-.ftlheader-container{
+.ftlheader-container {
     font-family: 'Figtree', sans-serif;
     font-size: 19pt;
     font-weight: 700;
     margin-bottom: 0;
 }
 
-#ftlheader-container1{
-    margin-top: 8px;   
+#ftlheader-container1 {
+    margin-top: 8px;
 }
 
-#ftlheader-container2{
+#ftlheader-container2 {
     margin-top: 10px;
 }
 
-.ftltext-container{
+.ftltext-container {
     font-family: 'Figtree', sans-serif;
     font-size: 12pt;
     line-height: 24px;
     margin-bottom: 0;
 }
 
-#ftltext-container1{
+#ftltext-container1 {
     margin-top: 33px;
 }
 
-#ftltext-container2{
-    margin-top: 33px;   
+#ftltext-container2 {
+    margin-top: 33px;
 }
 
-.ftlabsaztext-container{
+.ftlabsaztext-container {
     margin-top: 36px;
     font-family: 'Figtree', sans-serif;
-    font-size: 12pt; 
+    font-size: 12pt;
     line-height: 24px;
-    margin-bottom: 0;   
+    margin-bottom: 0;
 }
 
-#ftlabsaztext-container1{
+#ftlabsaztext-container1 {
     margin-top: 23px;
 }
 
-#ftlabsaztext-container2{
-    margin-top: 23px;    
+#ftlabsaztext-container2 {
+    margin-top: 23px;
 }
 
 
 
 /* третий div слева */
-.first-third-layer-container{
+.first-third-layer-container {
     background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy.png);
-    width: 801px; 
+    width: 801px;
     height: 447px;
     /* text-align: center;  */
     display: flex;
@@ -369,30 +393,31 @@ body{
 }
 
 
-.first-third-layer-container>div{
+.first-third-layer-container>div {
     width: 467px;
     height: 247px;
     padding-left: 48px;
     /* margin-top: 81px; */
     margin-left: 48px;
 }
-.first-third-layer-container>div>p{
+
+.first-third-layer-container>div>p {
     color: white;
 }
 
 
 
 /* третий div справа */
-.second-third-layer-container{
+.second-third-layer-container {
     background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy3_474_2.png);
-    width: 799px; 
+    width: 799px;
 
     height: 447px;
- 
+
 }
 
 /* четвертый div */
-.fourth-layer-container{
+.fourth-layer-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -401,44 +426,172 @@ body{
 }
 
 /* четвертый div слева */
-.first-fourth-layer-container{
+.first-fourth-layer-container {
     background-image: url(backgroundimage/FourthLayerBackground/FourthLayerLeft.png);
-    width: 800px; 
-    height: 474px;     
+    width: 800px;
+    height: 474px;
 }
 
 /* четвертый div справа */
-.second-fourth-layer-container{
+.second-fourth-layer-container {
     background-image: url(backgroundimage/FourthLayerBackground/FourthLayerRight.png);
-    width: 800px; 
-    height: 474px; 
+    width: 800px;
+    height: 474px;
     display: flex;
 }
 
-.second-fourth-layer-container>div{
+.second-fourth-layer-container>div {
     width: 468px;
     /* padding-left: 80px; */
     margin-top: 107px;
     margin-left: 80px;
 }
 
+.fifth-layer-container {
+    background-color: white;
+    height: 1017px;
+    width: 1600px;
+}
+
+/* шестой div */
+.sixth-layer-container {
+    background-color: rgb(17, 116, 158);
+    height: 355px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-layer-sub-container {
+    height: 84px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.sixth-layer-second1-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.sixth-layer-second1-container>div>i {
+    color: white;
+    font-size: 69px;
+    margin-bottom: 39px;
+}
+
+
+.sixth-layer-second2-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.sixth-layer-second2-container>div>i {
+    color: white;
+    font-size: 69px;
+    margin-bottom: 39px;
+}
+
+.sixth-layer-sub-container>div {
+    height: 84px;
+    width: 553px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text-sixth-layer{
+    width: 450px;
+    height: 86px;
+}
+.text-sixth-layer>p{
+    font-family: "Gotham-Medium", sans-serif;
+    font-size: 10pt;
+    color: white;
+}
+
+
+
+/* седьмой div */
+.seventh-layer-container {
+    height: 848px;
+    width: 1600px;
+
+    background-image: url(backgroundimage/SeventhLayerBackground/Layer7.png);
+}
 
 
 
 
+.eigth-layer-container {
+    background-color: white;
+    height: 944px;
+    width: 1600px;
+}
 
-@font-face{
+.ninth-layer-container {
+    height: 853px;
+    width: 1600px;
+    background-image: url(backgroundimage/NinthLayerbackground/Layer9.png);
+}
+
+
+/* десятый div */
+.tenth-layer-container {
+    height: 446px;
+    width: 1600px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.tenth-layer-first-container {
+    height: 332px;
+    width: 1600px;
+    background-image: url(backgroundimage/TenthLayerBaackground/Map.png);
+}
+
+.tenth-layer-second-container {
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tenth-layer-second-container>div {
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenth-layer-second-container>div>p {
+    color: white;
+
+}
+
+@font-face {
     font-family: "Myriad Pro Regular";
-    src: url(C:\Users\37529\Desktop\РПИ\Лаба1\static\fonts\MYRIADPRO-REGULAR.OTF);
+    src: url("C:\Users\37529\Desktop\РПИ\Лаба1\static\fonts\MYRIADPRO-REGULAR.OTF");
 }
 
 
 
 @font-face {
- 
-    font-family: "Gotham-Medium"; 
+
+    font-family: "Gotham-Medium";
     src: url("C:\Users\37529\Desktop\РПИ\Лаба1\static\fonts\GothamMedium.otf");
-} 
+}
 
 @font-face {
     font-family: "Gotham-Bold";
