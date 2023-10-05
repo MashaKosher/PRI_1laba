@@ -430,12 +430,90 @@ body {
   margin-left: 80px;
 }
 
+
+/* пятый уонтейнер */
 .fifth-layer-container {
   background-color: white;
   height: 1017px;
   width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.fifth-layer-content-container{
+  width: 1169px;
+  height: 816px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.fifth-block1{
+
+  height: 176px;
+  width: 117px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(backgroundimage/FifthLayerBackground/B.png);
+}
+
+.fifth-block1>p{
+
+  white-space: nowrap;
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 37.55px;
+
+}
+
+.fifth-block2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+}
+
+.fifth-block2>p{
+  font-family: "Gotham-Book-It", sans-serif;
+  font-size: 30.06px;
+}
+
+.fifth-block3{
+  height: 498px;
+  width: 1169px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+
+.fifth-block3>div{
+  height: 498px;
+  width: 270px;
+}
+
+.fifth-sub-block>div>img{
+  width: 270px;
+  height: 280px;
+}
+
+#text1-five{
+  text-align: center;
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  color: #11749e;
+}
+
+#text2-five{
+  text-align: center;
+  font-family: "Gotham-Book-It", sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+}
 /* шестой div */
 .sixth-layer-container {
   background-color: rgb(17, 116, 158);
@@ -506,10 +584,96 @@ body {
 
 /* седьмой div */
 .seventh-layer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 848px;
   width: 1600px;
   background-image: url(backgroundimage/SeventhLayerBackground/Layer7.png);
 }
+
+.seventh-sublayer-container{
+  width: 1040px;
+  height: 647px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone-container{
+  height: 647px;
+  width: 318px;
+}
+.text-seven-container{
+  width: 468px;
+  height: 376px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.text1-seven-container{
+  height: 144px;
+  width: 468px;
+}
+
+.text2-seven-container{
+  height: 162px;
+  width: 428px;
+}
+
+#ftlheader-container7 {
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#ftltext-container7{
+  font-family: "Gotham-Book-It", sans-serif ;
+  font-size: 15px;
+  color: white;
+  line-height: 23px;
+}
+
+
+.text2-seven-container{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.text2-seven-container>div{
+  background-color:#11749e;
+  height: 38px;
+  display: flex;
+  align-items: center;
+
+}
+
+.text2-seven-container>div>p{
+  color: white;
+  margin-left: 19px;
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+
+}
+
+#block1{
+  width: 370px;
+
+  /* padding-left: 19px; */
+}
+
+#block2{
+  width: 400px;
+}
+
+#block3{
+  width: 428px;
+}
+
 
 /* восьмой div  */
 .eigth-layer-container {
@@ -571,6 +735,8 @@ body {
 #txt1-layer20 {
   padding-right: 18px;
 }
+
+
 @font-face {
   font-family: "Myriad Pro Regular";
   src: url("C:\Users\37529\Desktop\РПИ\Лаба1\static\fonts\MYRIADPRO-REGULAR.OTF");
