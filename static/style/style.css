@@ -12,7 +12,6 @@ body {
 
 /* первый div */
 .first-layer-container {
-  /* background-color: blue; */
   background-image: url(backgroundimage/FirstLayerBackground/Layer962.png);
   width: 1600px;
   height: 880px;
@@ -120,13 +119,10 @@ body {
 }
 
 .first-layer-two-container {
-  /* margin-top: 78px; */
   display: flex;
   flex-direction: column;
-  /* height: 164px; */
   justify-content: center;
   align-items: center;
-  /* margin: 0; */
 }
 
 #text-layer1-one-container {
@@ -145,35 +141,24 @@ body {
 
 .text-layer1-one-container {
   display: inline-flex;
-  /* font-family: 'Figtree', sans-serif;*/
   font-weight: bold;
   font-family: "Gotham-Bold", sans-serif;
   color: white;
-  /* font-size: 115pt; */
   font-size: 112pt;
   letter-spacing: -0.007em;
   line-height: 108px;
   margin-bottom: 0px;
-
-  /* margin-bottom: -70px; */
 }
 
 .text-layer1-two-container {
   display: inline-flex;
-  /* font-family: 'Figtree', sans-serif; */
   font-family: "Gotham-Medium", sans-serif;
   font-size: 18pt;
   font-weight: bolder;
   color: #11749e;
-  /* font-size: 18pt; */
   letter-spacing: 0.8em;
   width: 810px;
   white-space: nowrap;
-  /* padding-bottom: 40px; */
-  /*Этого свйства не было */
-  /* line-height: 15px; */
-  /* line-height: 57.79pt; */
-  /* margin-top: 90px;   */
   text-align: center;
   margin-top: 11px;
 }
@@ -184,16 +169,13 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
-  /* margin-bottom: 130px;
-    margin-right: 2px; */
 }
 
 .first-layer-three-container > div > p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 11pt;
-  /* width: 75px;
-    height: 8px; */
+
   margin-bottom: 0px;
   white-space: nowrap;
   color: white;
@@ -232,7 +214,6 @@ body {
 
 .w-container > p {
   font-family: "Gotham-Medium", sans-serif;
-  /* font-size: 32.55pt; */
   font-size: 28pt;
   line-height: 24px;
   letter-spacing: 0.13em;
@@ -247,9 +228,7 @@ body {
   width: 1162px;
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: space-between;
-  /* width: 270px; */
 }
 
 .secnd-icon-container > div {
@@ -260,8 +239,7 @@ body {
   display: flex;
 }
 
-.secnd-icon-container > div > div {
-}
+
 
 #fa-1conyainer {
   height: 133px;
@@ -448,15 +426,18 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
+
 .fifth-block1{
 
   height: 176px;
-  width: 117px;
+  width: 116px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url(backgroundimage/FifthLayerBackground/B.png);
+  margin-left: 12px;
 }
 
 .fifth-block1>p{
@@ -464,6 +445,7 @@ body {
   white-space: nowrap;
   font-family: "Gotham-Medium", sans-serif;
   font-size: 37.55px;
+  font-weight: bolder;
 
 }
 
@@ -472,6 +454,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 22px;
+  margin-bottom: 37px;
+  letter-spacing: 0.099em;
 }
 
 .fifth-block2>p{
@@ -486,6 +470,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  /* margin-bottom: 8px;    */
 
 }
 
@@ -503,17 +488,27 @@ body {
 #text1-five{
   text-align: center;
   font-family: "Gotham-Medium", sans-serif;
-  font-size: 18px;
-  line-height: 36px;
+  font-size: 17px;
+  /* line-height: 36px; */
   color: #11749e;
+  margin-top: 38px;
+  font-weight: bolder;
+  letter-spacing: 0.065em;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 #text2-five{
   text-align: center;
   font-family: "Gotham-Book-It", sans-serif;
   font-size: 15px;
-  line-height: 23px;
+  line-height: 24px;
+  letter-spacing: 0.065em;
+
+
 }
+
+
 /* шестой div */
 .sixth-layer-container {
   background-color: rgb(17, 116, 158);
@@ -582,32 +577,41 @@ body {
   line-height: 23px;
 }
 
+
+
+
 /* седьмой div */
 .seventh-layer-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* height: 848px; */
   height: 848px;
   width: 1600px;
   background-image: url(backgroundimage/SeventhLayerBackground/Layer7.png);
 }
 
 .seventh-sublayer-container{
-  width: 1040px;
+  width: 1052px;
+  /* width:1047 */
   height: 647px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-right: 100px;
 }
 .phone-container{
   height: 647px;
   width: 318px;
+  margin-right: 40px;
+  margin-bottom: 3px;
 }
 .text-seven-container{
   width: 468px;
   height: 376px;
   display: flex;
+  margin-bottom: 74px;
   justify-content: space-between;
   flex-direction: column;
 }
@@ -615,6 +619,8 @@ body {
 .text1-seven-container{
   height: 144px;
   width: 468px;
+
+  margin-left: 5px;
 }
 
 .text2-seven-container{
@@ -626,6 +632,9 @@ body {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 25px;
   color: white;
+  padding: 0px;
+  margin-bottom: 31px;
+
 }
 
 #ftltext-container7{
@@ -641,6 +650,7 @@ body {
   justify-content: space-between;
   /* align-items: center; */
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .text2-seven-container>div{
@@ -648,6 +658,7 @@ body {
   height: 38px;
   display: flex;
   align-items: center;
+  margin-bottom: 24px;
 
 }
 
@@ -657,6 +668,7 @@ body {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 15px;
   line-height: 24px;
+
 
 }
 
