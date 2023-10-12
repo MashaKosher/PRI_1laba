@@ -688,12 +688,131 @@ body {
 
 
 /* восьмой div  */
-.eigth-layer-container {
+.eighth-layer-container {
   background-color: white;
-  height: 944px;
+  height: 940px;
   width: 1600px;
+  padding-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.eighth-layer-content-container{
+  width: 1170px;
+  height: 821px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.eighth-block1{
+
+  height: 176px;
+  width: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(backgroundimage/EighthLayerBackground/T.png);
+  margin-left: 12px;
+  margin-bottom: 34px;
+}
+
+.eighth-block1>p{
+
+  white-space: nowrap;
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 37.55px;
+  font-weight: bolder;
+  letter-spacing: 0.035em;
+  margin-bottom: 38.55px;
+
+}
+
+.eighth-block2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  margin-bottom: 37px;
+  letter-spacing: 0.093em;
+  margin-left: 14px;
+}
+
+.eighth-block2>p{
+  font-family: "Gotham-Book-It", sans-serif;
+  font-size: 30.06px;
+}
+
+.eighth-block3{
+  height: 482px;
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  /* margin-bottom: 8px;    */
+  margin-left: 1px;
+
+}
+
+.eighth-sub-block{
+  height: 482px;
+  width: 270px;
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction: column;
+}
+
+.eighth-sub-block>img{
+  width: 270px;
+  height: 413px;
+  margin-bottom: 69px;
+}
+
+.eighth-sub-div-block{
+  height: 80px;
+  width: 215px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction: column;
+  top: 366px;
+}
+
+#text1-eight{
+  text-align: center;
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 20px;
+  /* line-height: 36px; */
+  color: #11749e;
+  /* margin-top: 38px; */
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-block-end: 0em;
+}
+
+#text2-eight{
+  text-align: center;
+  font-family: "Gotham-Book-It", sans-serif;
+  font-size: 14px;
+  /* line-height: 24px; */
+  letter-spacing: 0.065em;
+  margin-block-start: 7px;
+
+
+}
+
+
+/* девятый div */
 .ninth-layer-container {
   height: 851px;
   width: 1600px;
