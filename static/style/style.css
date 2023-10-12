@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-top: 3px;
-  padding-left: 3px;
+  padding-left: 4.2px;
   background-image: url(backgroundimage/FirstLayerBackground/Rectangle9.png);
 }
 
@@ -151,7 +151,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 26px;
+  padding-bottom: 28px;
 }
 
 .first-layer-three-container > div > p {
@@ -242,12 +242,48 @@ body {
 }
 
 #imageone-2layer {
-  font-family: "Gotham Medium", sans-serif;
+  font-family: 'Gotham Medium', sans-serif;
   font-size: 12pt;
   color: white;
   font-weight: 50;
   margin-top: 23px;
   letter-spacing: 0.09em;
+  padding-left: 7px;
+  padding-bottom: 2px;
+
+}
+
+#imageone-2layer2{
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 12pt;
+  color: white;
+  font-weight: 50;
+  margin-top: 23px;
+  letter-spacing: 0.09em;
+  padding-left: 14px;
+  padding-bottom: 2px;
+}
+
+#imageone-2layer3{
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 12pt;
+  color: white;
+  font-weight: 50;
+  margin-top: 23px;
+  letter-spacing: 0.09em;
+  padding-right: 5px;
+  padding-bottom: 3px;
+}
+
+#imageone-2layer4{
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 12pt;
+  color: white;
+  font-weight: 50;
+  margin-top: 23px;
+  letter-spacing: 0.09em;
+  padding-bottom: 3px;
+  padding-right: 9px;
 }
 
 #imagtwo-2layer {
@@ -278,13 +314,13 @@ body {
 
 #ftldate-container1 {
   margin-top: -19px;
-  letter-spacing: 0.05e
+  letter-spacing: 0.05em;
   padding-left: 2px;
 }
 
 #ftldate-container2 {
   margin-top: -6px;
-  letter-spacing: 0.055em;
+  letter-spacing: 0.05em;
   padding-top: 2px;
   padding-left: 2px;
 }
@@ -343,6 +379,7 @@ body {
 
 /* третий div слева */
 .first-third-layer-container {
+  /* background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy.png); */
   background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy.png);
   width: 801px;
   height: 447px;
@@ -364,7 +401,7 @@ body {
 
 /* третий div справа */
 .second-third-layer-container {
-  background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy3_474_2.png);
+  background-image: url(backgroundimage/ThirdLayerBackground/final.png);
   width: 799px;
   height: 447px;
 }
@@ -524,8 +561,8 @@ body {
 
 .sixth-layer-second1-container > div > i {
   color: white;
-  font-size: 76px;
-  margin-bottom: 71px;
+  font-size: 79px;
+  margin-bottom: 69px;
 }
 
 .sixth-layer-second2-container {
@@ -536,8 +573,8 @@ body {
 
 .sixth-layer-second2-container > div > i {
   color: white;
-  font-size: 76px;
-  margin-bottom: 71px;
+  font-size: 79px;
+  margin-bottom: 69px;
 }
 
 .sixth-layer-sub-container > div {
@@ -678,35 +715,40 @@ body {
   width: 1600px;
 }
 
-.ninth-layer-container {
-  height: 851px;
-  width: 1600px;
-  background-image: url(backgroundimage/NinthLayerbackground/Layer9.png);
-}
+
 
 /* девятый div */
 .ninth-layer-container{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 851px;
+  width: 1600px;
+  background-image: url(backgroundimage/NinthLayerbackground/Layer9.png);
 }
 
 .ninth-content-container{
   width: 1167px;
-  height: 606px;
+  /* height: 606px; */
+  height: 579px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: 13.5px;
 }
 
 .ninth-text-container{
   height: 182px;
   width: 120px;
   background-image: url(backgroundimage/NinthLayerbackground/C.png);
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 11px;
+  padding-top: 5px;
+
 }
 
 .ninth-text-container>p{
@@ -717,6 +759,7 @@ body {
   font-weight: bolder;
   letter-spacing: 0.011em;
   color: white;
+  letter-spacing: 0.024em;
 
 }
 
@@ -726,8 +769,9 @@ body {
   width: 1167px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   flex-direction: column;
+  margin-top: 52px;
+  margin-left: 2px;
 }
 
 .ninth1-input-container{
@@ -744,7 +788,7 @@ body {
 
 }
 .ninth1-input-container>div>input{
-  width: 368px;
+  width: 366px;
   height: 46px; 
   border-width: 1px;
   border-style: solid;
@@ -755,7 +799,7 @@ body {
 
 .ninth1-input-container>div>input::-webkit-input-placeholder{
   color: aliceblue;
-  padding-left: 21px;
+  padding-left: 18px;
   font-family: "Gotham-Book-It", sans-serif;
   font-size: 15px;
 }
@@ -767,10 +811,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .ninth2-input-container>textarea{
-  height: 149px;
+  height: 134px;
   width: 1165px;
   border-width: 1px;
   border-style: solid;
@@ -780,8 +825,10 @@ body {
 
   font-family: "Gotham-Book-It", sans-serif;
   font-size: 15px;
-  padding-top: 17px;
-  padding-left: 21px;
+  margin-top: 1px;
+  padding-top: 13.95px;
+  padding-left: 17px;
+  letter-spacing: 0.05em;
 }
 
 .ninth2-input-container>input::-webkit-input-placeholder{
@@ -811,6 +858,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 56px;
+  margin-left: 91px;
+  padding-bottom: 8px;
+  padding-right: 14px;
 }
 
 .ninth-button-container>button>p{
