@@ -46,6 +46,8 @@ body {
   width: 79px;
   background-repeat: no-repeat;
   background-position: right bottom;
+  padding-top: 3px;
+  padding-left: 3px;
   background-image: url(backgroundimage/FirstLayerBackground/Rectangle9.png);
 }
 
@@ -96,79 +98,60 @@ body {
   font-size: 20px;
 }
 
+/* ! */
+
 #sub1-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 0;
+
   height: 764px;
-  justify-content: center;
 }
 
-#first-layer-two-divcontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#first-layer-two-divcontainer{
   height: 557px;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-}
-
-.first-layer-two-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-#text-layer1-one-container {
+.text-layer1-one-container{
   display: inline;
-  margin-top: 110px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 28px;
-}
 
-#text-layer2-one-container {
-  display: inline;
-  margin-top: 0;
-  margin-bottom: 48px;
-}
-
-.text-layer1-one-container {
-  display: inline-flex;
-  font-weight: bold;
   font-family: "Gotham-Bold", sans-serif;
   color: white;
   font-size: 112pt;
+  font-weight: bold;
   letter-spacing: -0.007em;
-  line-height: 108px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  margin-top: 100px;
 }
 
-.text-layer1-two-container {
-  display: inline-flex;
+.text-layer1-two-container{
+  margin-top: 28px;
   font-family: "Gotham-Medium", sans-serif;
   font-size: 18pt;
   font-weight: bolder;
   color: #11749e;
   letter-spacing: 0.8em;
-  width: 810px;
   white-space: nowrap;
+  width: 810px;
   text-align: center;
-  margin-top: 11px;
+  margin-bottom: -50px;
+  margin-top: 0;
 }
+
+
+/* ! */
 
 .first-layer-three-container {
   height: 207px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 30px;
+  padding-bottom: 26px;
 }
 
 .first-layer-three-container > div > p {
@@ -216,11 +199,13 @@ body {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 28pt;
   line-height: 24px;
-  letter-spacing: 0.13em;
+
   text-align: center;
 
   white-space: nowrap;
   color: white;
+
+  letter-spacing: 0.127em;
 }
 
 .secnd-icon-container {
@@ -262,12 +247,12 @@ body {
   color: white;
   font-weight: 50;
   margin-top: 23px;
+  letter-spacing: 0.09em;
 }
 
 #imagtwo-2layer {
   text-align: center;
   color: white;
-  /* font-family:  'Gotham Book',sans-serif; */
   font-family: "Figtree", sans-serif;
   font-size: 12pt;
   white-space: nowrap;
@@ -286,16 +271,22 @@ body {
 
 .ftldate-container {
   font-family: "Figtree", sans-serif;
-  font-size: 11pt;
+  font-size: 10pt;
   margin-bottom: 0;
+
 }
 
 #ftldate-container1 {
   margin-top: -19px;
+  letter-spacing: 0.05e
+  padding-left: 2px;
 }
 
 #ftldate-container2 {
   margin-top: -6px;
+  letter-spacing: 0.055em;
+  padding-top: 2px;
+  padding-left: 2px;
 }
 
 .ftlheader-container {
@@ -307,10 +298,12 @@ body {
 
 #ftlheader-container1 {
   margin-top: 8px;
+  letter-spacing: 0.043em;
 }
 
 #ftlheader-container2 {
   margin-top: 10px;
+  letter-spacing: 0.043em;
 }
 
 .ftltext-container {
@@ -318,6 +311,8 @@ body {
   font-size: 12pt;
   line-height: 24px;
   margin-bottom: 0;
+  letter-spacing: 0.0195em;
+  white-space: nowrap;
 }
 
 #ftltext-container1 {
@@ -334,6 +329,8 @@ body {
   font-size: 12pt;
   line-height: 24px;
   margin-bottom: 0;
+  letter-spacing: 0.0195em;
+  white-space: nowrap;
 }
 
 #ftlabsaztext-container1 {
@@ -349,19 +346,15 @@ body {
   background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy.png);
   width: 801px;
   height: 447px;
-  /* text-align: center;  */
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: center;
-  /* padding-bottom: 16px; */
 }
 
 .first-third-layer-container > div {
   width: 467px;
   height: 247px;
   padding-left: 48px;
-  /* margin-top: 81px; */
   margin-left: 48px;
 }
 
@@ -373,7 +366,6 @@ body {
 .second-third-layer-container {
   background-image: url(backgroundimage/ThirdLayerBackground/Rectangle6copy3_474_2.png);
   width: 799px;
-
   height: 447px;
 }
 
@@ -403,7 +395,6 @@ body {
 
 .second-fourth-layer-container > div {
   width: 468px;
-  /* padding-left: 80px; */
   margin-top: 107px;
   margin-left: 80px;
 }
@@ -446,6 +437,7 @@ body {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 37.55px;
   font-weight: bolder;
+  letter-spacing: 0.011em;
 
 }
 
@@ -455,7 +447,7 @@ body {
   justify-content: center;
   height: 22px;
   margin-bottom: 37px;
-  letter-spacing: 0.099em;
+  letter-spacing: 0.0876em;
 }
 
 .fifth-block2>p{
@@ -470,8 +462,6 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  /* margin-bottom: 8px;    */
-
 }
 
 
@@ -489,7 +479,6 @@ body {
   text-align: center;
   font-family: "Gotham-Medium", sans-serif;
   font-size: 17px;
-  /* line-height: 36px; */
   color: #11749e;
   margin-top: 38px;
   font-weight: bolder;
@@ -524,14 +513,12 @@ body {
   width: 1170px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   flex-direction: row;
 }
 
 .sixth-layer-second1-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   flex-direction: row;
 }
 
@@ -544,7 +531,6 @@ body {
 .sixth-layer-second2-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   flex-direction: row;
 }
 
@@ -568,10 +554,7 @@ body {
   margin-bottom: 88px;
 }
 .text-sixth-layer > p {
-  /* font-family: "Gotham-Medium", sans-serif; */
-  /* font-family: 'Gotham-Book', sans-serif; */
   font-family: "Gotham-Book-It", sans-serif;
-
   font-size: 12pt;
   color: white;
   line-height: 23px;
@@ -585,7 +568,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 848px; */
+
   height: 848px;
   width: 1600px;
   background-image: url(backgroundimage/SeventhLayerBackground/Layer7.png);
@@ -634,6 +617,7 @@ body {
   color: white;
   padding: 0px;
   margin-bottom: 31px;
+  letter-spacing: 0.042em;
 
 }
 
@@ -642,6 +626,7 @@ body {
   font-size: 15px;
   color: white;
   line-height: 23px;
+  letter-spacing: 0.044em;
 }
 
 
@@ -668,8 +653,7 @@ body {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 15px;
   line-height: 24px;
-
-
+  letter-spacing: 0.031em;
 }
 
 #block1{
@@ -698,6 +682,146 @@ body {
   height: 851px;
   width: 1600px;
   background-image: url(backgroundimage/NinthLayerbackground/Layer9.png);
+}
+
+/* девятый div */
+.ninth-layer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ninth-content-container{
+  width: 1167px;
+  height: 606px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ninth-text-container{
+  height: 182px;
+  width: 120px;
+  background-image: url(backgroundimage/NinthLayerbackground/C.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ninth-text-container>p{
+
+  white-space: nowrap;
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 37.55px;
+  font-weight: bolder;
+  letter-spacing: 0.011em;
+  color: white;
+
+}
+
+
+.ninth-input-container{
+  height: 238px;
+  width: 1167px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.ninth1-input-container{
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.ninth1-input-container>div{
+  width: 370px;
+  height: 48px;
+
+
+}
+.ninth1-input-container>div>input{
+  width: 368px;
+  height: 46px; 
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  background: transparent;
+
+}
+
+.ninth1-input-container>div>input::-webkit-input-placeholder{
+  color: aliceblue;
+  padding-left: 21px;
+  font-family: "Gotham-Book-It", sans-serif;
+  font-size: 15px;
+}
+
+
+.ninth2-input-container{
+  height: 151px;
+  width: 1167px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ninth2-input-container>textarea{
+  height: 149px;
+  width: 1165px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  background: transparent;
+  color: aliceblue;
+
+  font-family: "Gotham-Book-It", sans-serif;
+  font-size: 15px;
+  padding-top: 17px;
+  padding-left: 21px;
+}
+
+.ninth2-input-container>input::-webkit-input-placeholder{
+  color: aliceblue;
+  padding-left: 21px;
+  padding-bottom: 20px;
+  font-family: "Gotham-Book-It", sans-serif;
+  font-size: 15px;
+}
+
+
+
+
+
+.ninth-button-container{
+  height: 64px;
+  width: 1167px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ninth-button-container>button{
+  height: 64px;
+  width: 227px;
+  background-color: #11749e;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ninth-button-container>button>p{
+  font-family: 'Gotham-Medium', sans-serif;
+  color: white;
+  font-size: 24px;
+}
+.ninth-button-container>button:hover{
+  border-color: aliceblue;
+  border-width: 1px;
+  border-style: solid;
 }
 
 /* десятый div */
@@ -743,9 +867,15 @@ body {
 
 #txt1-layer10 {
   padding-left: 5px;
+
 }
 #txt1-layer20 {
-  padding-right: 18px;
+  padding-right: 7.1px;
+  padding-bottom: 2px;
+  height: 25px;
+  width: 192px;
+  background-image: url(backgroundimage/TenthLayer/Layer10.png);
+  background-repeat: no-repeat;
 }
 
 
