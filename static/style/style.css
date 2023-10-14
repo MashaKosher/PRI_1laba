@@ -235,7 +235,7 @@ body {
 
 #fa-1conyainer > i {
   color: white;
-  font-size: 36px;
+  font-size: 37px;
 }
 
 #imageone-2layer {
@@ -592,7 +592,7 @@ body {
 
   height: 848px;
   width: 1600px;
-  background-image: url(backgroundimage/SeventhLayerBackground/Layer7.png);
+  background-image: url(backgroundimage/SeventhLayerBackground/Layer7correct.png);
 }
 
 .seventh-sublayer-container {
@@ -819,7 +819,8 @@ body {
 
 #text1-eight2 {
   /* margin-left: 25px; */
-  padding-left: 6px;
+  padding-left: 18px;
+  letter-spacing: 0.055em;
 }
 #text1-eight3 {
   padding-left: 15px;
@@ -830,11 +831,12 @@ body {
 }
 #text2-eight {
   text-align: center;
-  font-family: "Gotham-Book-It", sans-serif;
+  font-family: "Gotham-Medium", sans-serif;
   font-size: 14px;
   /* line-height: 24px; */
   letter-spacing: 0.065em;
   margin-block-start: 7px;
+  font-weight: 100;
 }
 
 /* девятый div */
