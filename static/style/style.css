@@ -179,28 +179,26 @@ body {
 .first-layer-three-DIVcontainer {
   height: 65px;
   width: 65px;
-  margin-top: 20px;
-  margin-right: 5px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
-}
 
-.first-layer-three-DIVcontainer>button{
+  margin-top: 20px;
+  margin-right: 5px;
+
   background: transparent;
-  border: none;
-  border-color: rgb(17, 116, 158);
+
   border-radius: 50%;
   border: 1px solid;
   border-color:  white;
-  height: 65px;
-  width: 65px;
 
 
 }
 
-.first-layer-three-DIVcontainer>button:hover{
+
+.first-layer-three-DIVcontainer:hover{
   border-color: rgb(17, 116, 158);
   cursor: pointer;
 
